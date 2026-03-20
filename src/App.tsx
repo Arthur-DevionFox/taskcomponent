@@ -1,4 +1,3 @@
-import './App.css'
 import { TaskCard } from './components/TaskCard/TaskCard';
 import type { Task } from './types/task';
 
@@ -7,7 +6,7 @@ function App() {
   {
     title: "Настроить авторизацию",
     description: "Реализовать вход по email и паролю с валидацией",
-    priority: "low",
+    priority: "high",
     status: "todo",
   }
 ;
